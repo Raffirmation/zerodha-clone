@@ -1,0 +1,24 @@
+import React from 'react';
+import Hero from './Hero';
+import LeftSection from './LeftSection';
+import RightSection from './RightSection';
+import Universe from './Universe';
+
+
+function PricingPage() {
+    return ( 
+        <>
+            <Hero/>
+            <LeftSection imageURL="images/kite.png" productName="Kite" productDescription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices." tryDemo="" learnMore="" googlePlay="" appStore=""/>
+            <RightSection/>
+             <LeftSection imageURL="images/coin.png" productName="Coin" productDescription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account."   googlePlay="" appStore="" linkType="coin"/>
+             <RightSection/>
+              <LeftSection imageURL="images/varsity.png" productName="Varsity mobile" productDescription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."  googlePlay="" appStore="" linkType="none"/>
+            <RightSection/>
+            <Universe/>
+        </>
+
+     );
+}
+
+export default PricingPage;
