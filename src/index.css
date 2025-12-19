@@ -15,3 +15,9 @@ code {
 .nav-link{
   margin-left: 40px;
 }
+.universe-logo {
+  height: 48px;        /* same height for all logos */
+  max-width: 160px;   /* keeps wide logos balanced */
+  object-fit: contain;
+  margin-bottom: 12px;
+}
